@@ -29,11 +29,19 @@ i {
     font-family: var(--font);
 }
 
-/* || Header and main navigation */
+/* || Header, Footer and main navigation */
 h1,
 h4 {
     font-family: var(--font-header);
     font-weight: 500;
 }
 
-/* || Footer */
+/* || About Me */
+.profile-picture {
+    background-image: url('../../public/profile-picture.jpg');
+    background-size: cover;
+    background-position: center 1px;
+    width: 200px;
+    height: 250px;
+    border-radius: 10%;
+}

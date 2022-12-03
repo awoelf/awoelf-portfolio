@@ -5,11 +5,13 @@ import './styles/App.css'
 // Component imports
 import AppHeader from './components/AppHeader';
 import AppFooter from './components/AppFooter';
+import AboutMe from './components/AboutMe';
 
 function App() {
   return (
     <div className='App'>
       <AppHeader />
+      <AboutMe />
       <AppFooter />
     </div>
   );

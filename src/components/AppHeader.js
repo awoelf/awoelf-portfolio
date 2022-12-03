@@ -1,8 +1,9 @@
 import { Breadcrumb } from 'react-bootstrap';
+import Container from 'react-bootstrap/Container';
 
 function AppHeader() {
     return (
-        <header>
+        <Container fluid>
             <div className='d-flex justify-content-between align-items-center'>
                 <div>
                     <h1>Alexis Woelffer</h1>
@@ -19,7 +20,7 @@ function AppHeader() {
                     <Breadcrumb.Item href='#'>Resume</Breadcrumb.Item>
                 </Breadcrumb>
             </div>
-        </header>
+        </Container>
     )
 }
 
