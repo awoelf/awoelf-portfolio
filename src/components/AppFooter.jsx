@@ -2,7 +2,7 @@ import Breadcrumb from 'react-bootstrap/Breadcrumb';
 
 function AppFooter() {
     return (
-        <footer className='position-absolute top-100 start-50 translate-middle text-center'>
+        <footer className='d-flex flex-column align-items-center mt-auto'>
             <p className='m-0'>Alexis Woelffer</p>
             <Breadcrumb>
                 <Breadcrumb.Item href="https://github.com/awoelf?tab=repositories">Github</Breadcrumb.Item>

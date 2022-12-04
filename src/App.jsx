@@ -5,13 +5,16 @@ import './styles/App.css'
 // Component imports
 import AppHeader from './components/AppHeader';
 import AppFooter from './components/AppFooter';
-import AboutMe from './components/AboutMe';
+// import AboutMe from './components/AboutMe';
+import PortfolioCard from './components/PortfolioCard';
+
 
 function App() {
   return (
-    <div className='App'>
+    <div className='App h-100 d-flex flex-column'>
       <AppHeader />
-      <AboutMe />
+
+      <PortfolioCard />
       <AppFooter />
     </div>
   );
