@@ -2,9 +2,9 @@ import Breadcrumb from 'react-bootstrap/Breadcrumb';
 
 function Contact() {
   return (
-    <div className='d-flex flex-column col-3 mx-auto'>
+    <div className='d-flex flex-column col-sm-12 col-lg-6 mx-auto'>
       <h4 className="text-center">Contact</h4>
-      <div className='box d-flex flex-column align-items-center pt-3'>
+      <div className='box d-flex flex-column align-items-center pt-3 px-3'>
         <p className="text-center">
             Email is the best way to get in touch with me. Check out my GitHub profile for
             all of the projects I'm working on!

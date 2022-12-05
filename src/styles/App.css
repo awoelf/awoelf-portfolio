@@ -104,6 +104,7 @@ button > i {
 
 .card {
   height: 400px;
+  border: 2px solid var(--color-btn);
 }
 
 .card-text {

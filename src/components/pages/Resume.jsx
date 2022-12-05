@@ -1,5 +1,5 @@
 import Container from 'react-bootstrap/Container';
-import pdf from '../assets/resume.pdf';
+import pdf from '../../assets/resume.pdf';
 import React, { useState } from 'react';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';

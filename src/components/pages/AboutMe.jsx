@@ -1,8 +1,20 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import React, { useState } from 'react';
 
 function AboutMe() {
+  const [width, setWidth] = useState(window.innerWidth);
+  React.useEffect(() => {
+    function handleResizeWindow() {
+      setWidth(window.innerWidth);
+    }
+    window.addEventListener('resize', handleResizeWindow);
+    return () => {
+      window.removeEventListener('resize', handleResizeWindow);
+    };
+  }, []);
+
   return (
     <Container>
       <Col lg={6} className="mx-auto">
@@ -10,7 +22,12 @@ function AboutMe() {
         <div className='box p-3'>
           <Row>
             <Col sm="auto" className="align-items-center">
-              <img className="profile-picture" alt=""></img>
+            {width > 560
+              ? (<img className="profile-picture" alt=""></img>)
+              : (<Row>
+                <img className="profile-picture mx-auto" alt=""></img>
+              </Row>)
+            }
             </Col>
             <Col>
               <p>
