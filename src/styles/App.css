@@ -34,15 +34,6 @@ i {
   font-family: var(--font);
 }
 
-button {
-  background-color: var(--color-btn);
-  font-family: var(--font);
-  color: white;
-  border: none;
-  padding: 0.5rem;
-  border-radius: 10px;
-}
-
 /* || Header, Footer and main navigation */
 h1,
 h4 {
@@ -68,12 +59,37 @@ h4 {
   height: 200px;
 }
 
-[data-gif='my-tech-site'] {
+[data-gif='My Tech Site'] {
   background-image: url('../assets/my-tech-site.gif');
 }
 
-[data-gif='note-taking-app'] {
+[data-gif='Note Taking App'] {
   background-image: url('../assets/note-taking-app.gif');
+}
+
+[data-gif='Social Network Back-end'] {
+  background-image: url('../assets/social-network-back-end.gif');
+}
+
+[data-gif='Monster Fighter'] {
+  background-image: url('../assets/monster-fighter.gif');
+}
+
+[data-gif='Weather Dashboard'] {
+  background-image: url('../assets/weather-dashboard.gif');
+}
+
+[data-gif='Code Quiz'] {
+  background-image: url('../assets/coding-quiz.gif');
+}
+
+button {
+  background-color: var(--color-btn);
+  font-family: var(--font);
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 10px;
 }
 
 button > i {
@@ -86,9 +102,20 @@ button > i {
   font-family: var(--font-header);
 }
 
+.card {
+  height: 400px;
+}
+
+.card-text {
+  height: 75px;
+}
+
 /* || Media Queries */
-@media (max-width: 750px) {
-  [data-gif] {
-    height: 100px;
+@media (max-width: 325px) {
+  .card {
+    height: auto;
+  }
+  .card-text {
+    height: auto;
   }
 }
