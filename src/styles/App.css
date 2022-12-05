@@ -116,6 +116,13 @@ embed {
   width: 100%;
 }
 
+/* || Contact */
+.box {
+  border: 2px solid var(--color-btn);
+  border-radius: 10px;
+  background-color: white;
+}
+
 /* || Media Queries */
 @media (max-width: 325px) {
   .card {
