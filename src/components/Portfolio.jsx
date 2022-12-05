@@ -5,6 +5,7 @@ import Row from 'react-bootstrap/Row';
 function Portfolio() {
   return (
     <Container fluid>
+      <h4 className="text-center">Portfolio</h4>
       <Row>
         <Project
           title="My Tech Site"

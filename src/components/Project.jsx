@@ -14,7 +14,7 @@ function Project(props) {
             <Col sm="auto" className="my-1 w-auto">
               <a href={props.github} target="_blank" rel="noreferrer">
                 <button>
-                  <i class="bi bi-github" /> GitHub
+                  <i className="bi bi-github" /> GitHub
                 </button>
               </a>
             </Col>
@@ -22,7 +22,7 @@ function Project(props) {
               <Col sm="auto" className="my-1 w-auto">
                 <a href={props.page} target="_blank" rel="noreferrer">
                   <button>
-                    <i class="bi bi-file-earmark-code" /> Page
+                    <i className="bi bi-file-earmark-code" /> Page
                   </button>
                 </a>
               </Col>
