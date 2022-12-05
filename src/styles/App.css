@@ -1,25 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic&family=Kiwi+Maru:wght@500&display=swap');
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css');
 
 /* || Root variables */
 :root {
-    /* == Fonts */
-    --font-header: 'Kiwi Maru', serif;
-    --font: 'IBM Plex Sans Arabic', sans-serif;
+  /* == Fonts */
+  --font-header: 'Kiwi Maru', serif;
+  --font: 'IBM Plex Sans Arabic', sans-serif;
 
-    /* == Colors */
-    --color-bg: #F1E5DE;
-    --color-font: #2B2D32;
+  /* == Colors */
+  --color-bg: #f1e5de;
+  --color-font: #2b2d32;
+  --color-btn: #5e6d65;
 }
 
 /* || General Styles */
 #root {
-    height: 100vh;
+  height: 100vh;
 }
 
 body {
-    background-color: var(--color-bg);
-    margin: 1.5em;
+  background-color: var(--color-bg);
+  margin: 1.5em;
 }
 
 h1,
@@ -29,23 +30,65 @@ h4,
 p,
 a,
 i {
-    color: var(--color-font);
-    font-family: var(--font);
+  color: var(--color-font);
+  font-family: var(--font);
+}
+
+button {
+  background-color: var(--color-btn);
+  font-family: var(--font);
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 10px;
 }
 
 /* || Header, Footer and main navigation */
 h1,
 h4 {
-    font-family: var(--font-header);
-    font-weight: 500;
+  font-family: var(--font-header);
+  font-weight: 500;
 }
 
 /* || About Me */
 .profile-picture {
-    background-image: url('../../public/assets/profile-picture.jpg');
-    background-size: cover;
-    background-position: center 1px;
-    width: 200px;
-    height: 250px;
-    border-radius: 10%;
+  background-image: url('../assets/profile-picture.jpg');
+  background-size: cover;
+  background-position: center 1px;
+  width: 200px;
+  height: 250px;
+  border-radius: 10%;
+}
+
+/* || Portfolio Styles */
+[data-gif] {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 200px;
+}
+
+[data-gif='my-tech-site'] {
+  background-image: url('../assets/my-tech-site.gif');
+}
+
+[data-gif='note-taking-app'] {
+  background-image: url('../assets/note-taking-app.gif');
+}
+
+button > i {
+  color: white;
+}
+
+/* || Bootstrap Class Styles */
+.h5 {
+  color: var(--color-font);
+  font-family: var(--font-header);
+}
+
+/* || Media Queries */
+@media (max-width: 750px) {
+  [data-gif] {
+    height: 100px;
+  }
 }
