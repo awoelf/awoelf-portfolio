@@ -1,11 +1,11 @@
-import { Document } from 'react-pdf';
 import Container from 'react-bootstrap/Container';
-import pdf from '../assets/resume.pdf';
+import pdf from '../assets/resume.pdf'
 
-async function Resume() {
+function Resume() {
   return (
     <Container>
-      <Document file={pdf}></Document>
+      <h4 className='text-center'>Resume</h4>
+      <embed src={pdf} type="application/pdf"></embed>
     </Container>
   );
 }

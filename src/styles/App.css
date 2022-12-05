@@ -110,6 +110,12 @@ button > i {
   height: 75px;
 }
 
+/* || Resume */
+embed {
+  height: 100vh;
+  width: 100%;
+}
+
 /* || Media Queries */
 @media (max-width: 325px) {
   .card {
