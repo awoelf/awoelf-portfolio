@@ -15,6 +15,7 @@ This is a portfolio page built with React that showcases the projects I have com
 * [React Bootstrap](https://react-bootstrap.netlify.app/)
 * [Bootstrap v5.2](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
 * [Bootstrap Icons](https://icons.getbootstrap.com/)
+* [Validator](https://www.npmjs.com/package/validator)
 
 ## Geting Started
 

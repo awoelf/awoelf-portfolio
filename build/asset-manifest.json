@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/awoelf-portfolio/static/css/main.9fea82ee.css",
-    "main.js": "/awoelf-portfolio/static/js/main.19793ebb.js",
+    "main.css": "/awoelf-portfolio/static/css/main.a392346b.css",
+    "main.js": "/awoelf-portfolio/static/js/main.28314bf8.js",
     "static/js/787.208c3992.chunk.js": "/awoelf-portfolio/static/js/787.208c3992.chunk.js",
     "static/media/social-network-back-end.gif": "/awoelf-portfolio/static/media/social-network-back-end.614b3752b891bb3d000e.gif",
     "static/media/monster-fighter.gif": "/awoelf-portfolio/static/media/monster-fighter.bb6498b45ce42b74385a.gif",
@@ -12,12 +12,12 @@
     "static/media/note-taking-app.gif": "/awoelf-portfolio/static/media/note-taking-app.04648b8d80ec2c007bf4.gif",
     "static/media/resume.pdf": "/awoelf-portfolio/static/media/resume.49e8c038a1555451e74d.pdf",
     "index.html": "/awoelf-portfolio/index.html",
-    "main.9fea82ee.css.map": "/awoelf-portfolio/static/css/main.9fea82ee.css.map",
-    "main.19793ebb.js.map": "/awoelf-portfolio/static/js/main.19793ebb.js.map",
+    "main.a392346b.css.map": "/awoelf-portfolio/static/css/main.a392346b.css.map",
+    "main.28314bf8.js.map": "/awoelf-portfolio/static/js/main.28314bf8.js.map",
     "787.208c3992.chunk.js.map": "/awoelf-portfolio/static/js/787.208c3992.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9fea82ee.css",
-    "static/js/main.19793ebb.js"
+    "static/css/main.a392346b.css",
+    "static/js/main.28314bf8.js"
   ]
 }
