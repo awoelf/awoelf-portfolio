@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/awoelf-portfolio/static/css/main.9fea82ee.css",
+    "main.js": "/awoelf-portfolio/static/js/main.19793ebb.js",
+    "static/js/787.208c3992.chunk.js": "/awoelf-portfolio/static/js/787.208c3992.chunk.js",
+    "static/media/social-network-back-end.gif": "/awoelf-portfolio/static/media/social-network-back-end.614b3752b891bb3d000e.gif",
+    "static/media/monster-fighter.gif": "/awoelf-portfolio/static/media/monster-fighter.bb6498b45ce42b74385a.gif",
+    "static/media/coding-quiz.gif": "/awoelf-portfolio/static/media/coding-quiz.5f270d73bad381d14731.gif",
+    "static/media/my-tech-site.gif": "/awoelf-portfolio/static/media/my-tech-site.d597e1a303d2114dd607.gif",
+    "static/media/profile-picture.jpg": "/awoelf-portfolio/static/media/profile-picture.bad31d5e64dc14308caa.jpg",
+    "static/media/weather-dashboard.gif": "/awoelf-portfolio/static/media/weather-dashboard.960c4a7e04d15ee8c6ed.gif",
+    "static/media/note-taking-app.gif": "/awoelf-portfolio/static/media/note-taking-app.04648b8d80ec2c007bf4.gif",
+    "static/media/resume.pdf": "/awoelf-portfolio/static/media/resume.49e8c038a1555451e74d.pdf",
+    "index.html": "/awoelf-portfolio/index.html",
+    "main.9fea82ee.css.map": "/awoelf-portfolio/static/css/main.9fea82ee.css.map",
+    "main.19793ebb.js.map": "/awoelf-portfolio/static/js/main.19793ebb.js.map",
+    "787.208c3992.chunk.js.map": "/awoelf-portfolio/static/js/787.208c3992.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9fea82ee.css",
+    "static/js/main.19793ebb.js"
+  ]
+}
